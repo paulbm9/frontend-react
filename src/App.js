@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://github.com/paulbm9"
+          href="https://github.com/paulbm9/sentimentai_01"
           target="_blank"
           rel="noopener noreferrer"
         >
