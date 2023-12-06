@@ -1,0 +1,28 @@
+/* Body.css */
+.body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80vh;
+  background: #3498db;
+}
+
+.body-content {
+  width: 50%;
+  display: flex;
+  padding: 2em;
+  align-items: center; /* Cambiado de 'flex-start' a 'center' */
+}
+
+.input-text {
+  flex: 8; /* Cambiado de 'width: 80%' a 'flex: 8' */
+   /* Espacio entre la caja de texto y el botón */
+  padding: 5px;
+}
+
+.button {
+  flex: 2; /* Cambiado de 'width: 20%' a 'flex: 2' */
+  padding: 7px;
+  background: #0483fb;
+  color: #fff;
+}

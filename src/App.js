@@ -1,24 +1,16 @@
-import React, { useState } from 'react';
-import SentimentAIBanner from './SentimentAIBanner';
-import './App.css'; // Asegúrate de tener un archivo CSS para tus estilos generales
+import React from 'react';
+import Header from './Header';
+import Body from './Body';
+import Footer from './Footer';
 
-function App() {
-  const [textInput, setTextInput] = useState('');
-
+const App = () => {
   return (
-    <div className="App">
-      <SentimentAIBanner setTextInput={setTextInput} />
-      <div className="text-input">
-        <input
-          type="text"
-          value={textInput}
-          onChange={(e) => setTextInput(e.target.value)}
-          placeholder="Ingresa tu texto aquí"
-        />
-      </div>
-      {/* Otras partes de tu aplicación */}
+    <div>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
