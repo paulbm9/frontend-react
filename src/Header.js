@@ -6,10 +6,13 @@ const Header = () => {
   return (
     <header className="header">
       <div>
-        <h1>SentimentAI</h1>
+        <h1>
+        <span className="app-name">Sentiment</span>
+        <span className="ai">AI</span>
+        </h1>
       </div>
       <div>
-        <button>Contacto</button>
+        <button className='contacto'>Contacto</button>
       </div>
     </header>
   );

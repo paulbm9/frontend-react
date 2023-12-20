@@ -1,15 +1,29 @@
 /* Header.css */
-.header {
+.header {  
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     background: #fff;
     color: #3498db;
   }
 
+  .app-name {
+     /* Por defecto es normal, para Sentiment */
+    color: #3a60ee; /* Color medio azul para "Sentiment" */
+  }
+  
+  .ai {
+    font-weight: bold; /* Texto en negrita para "AI" */
+    color: #001f4e; /* Color medio negro azulado para "AI" */
+  }
+
   button {
-    background-color: #3498db;
+    background-color: #1341ec;
+    height: 50px;
+    border-radius: 5px;
     color: #fff;
     padding: 10px;
     border: none;
