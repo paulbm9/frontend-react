@@ -1,9 +1,15 @@
 /* Footer.css */
+
+
 .footer {
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
-    background: #fff;
-    color: #3498db;
+  background-color: #ffffff;
+  color: #1341ec;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-height: 50px; /* Ajusta esta altura según tus necesidades */
+  overflow: hidden;
   }
   
